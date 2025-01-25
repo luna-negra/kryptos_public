@@ -1,0 +1,47 @@
+services:
+  db:
+    build:
+      context: ./docker_mongo
+      dockerfile: Dockerfile
+    container_name: kryptos_db
+    hostname: kryptos-db
+    volumes:
+      - /backup/kryptos/db:/data/db
+    networks:
+      - network
+    command: ["mongod", "--auth"]
+
+  api:
+    build:
+      context: ./docker_kryptos
+      dockerfile: Dockerfile
+    container_name: kryptos_api
+    hostname: kryptos-api
+    depends_on:
+      - db
+    environment:
+      - KRYPTOS_MONGODB_HOST=kryptos-db
+      - KRYPTOS_EMAIL_HOST_USER=mymail@mail.com
+      - KRYPTOS_EMAIL_HOST_PASSWORD=abcdefghijklmnop
+    dns:
+      - 8.8.8.8
+    networks:
+      - network
+
+  bot:
+    build:
+      context: ./docker_kryptos_bot
+      dockerfile: Dockerfile
+    container_name: kryptos_bot
+    hostname: kryptos-bot
+    depends_on:
+      - api
+    environment:
+      - KRYPTOS_API_HOST_IP=kryptos-api
+      - KRYPTOS_BOT_API_TOKEN=THIS_IS_A_:TELEGRAM_BOT_API_KEY
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
