@@ -897,6 +897,7 @@ PROMPT_BUTTON: dict = {
         "edit_password_btn": "Change Password",
         "edit_visibility_btn": "Change Account Visibility",
         "get_settings_btn": "Show Settings",
+        "get_license_btn": "Show License",
         "home_btn": "Home Menu",
         "license_btn": "License",
         "mgmt_btn": f"Configure {APP_NAME}",
