@@ -908,6 +908,7 @@ PROMPT_BUTTON: dict = {
         "pt_srv_btn": "SRV",
         "register_license_btn": "Register License",
         "show_license_btn": "Check License",
+        "show_settings_btn": "Show Settings",
         "send_code_btn": "Send Code",
         "search_docs": "🔍 Search Registered Accounts",
         "search_docs_site": "Search by Site Name",
