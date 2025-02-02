@@ -2,8 +2,8 @@
 FROM mongo:latest
 
 # Create directory for the init script and copy it
-COPY init_kryptos_mongo.js /docker-entrypoint-initdb.d/init_kryptos_mongo.js
-RUN chmod 755 /docker-entrypoint-initdb.d/init_kryptos_mongo.js
+COPY entrypoint.sh /docker-entrypoint-initdb.d/entrypoint.sh
+RUN chmod 755 /docker-entrypoint-initdb.d/entrypoint.sh
 
 # Expose port
 EXPOSE 27017
@@ -11,7 +11,7 @@ EXPOSE 27017
 # Clean-up after initialization and start MongoDB
 CMD mongod & \
     sleep 10 && \
-    rm -f /docker-entrypoint-initdb.d/init_kryptos_mongo.js && \
+    rm -f /docker-entrypoint-initdb.d/entrypoint.sh && \
     wait $!
 
 # Please Note
