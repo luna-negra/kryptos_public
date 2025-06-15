@@ -15,7 +15,10 @@ RUN chmod 755 ./entrypoint.sh && \
 # Set port
 EXPOSE 8000
 
-# Run scripts
+# Run scripts for check environments
 ENTRYPOINT ["./entrypoint.sh"]
+
+# Run Command: django is applied by CORS
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 # All files and folders must be in kryptos folder

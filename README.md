@@ -108,45 +108,51 @@ First, create a file named 'docker-compose.yml' and copy the contents below.
 ```commandline
 services:
   db:
-    image: lunanegra4139/kryptos_db5:1.0
+    build:
+      context: ./docker_mongo
+      dockerfile: Dockerfile
     container_name: kryptos_db
     hostname: kryptos-db
     volumes:
-      - /backup/kryptos/db:/data/db
+      - [PATH_IN_HOST_MACHINE_TO_BACKUP_DB_DATA]:/data/db
     networks:
-      - network
-    command: ["mongod", "--auth"]
+      - kryptos
 
   api:
-    image: lunanegra4139/kryptos_api:1.0
+    build:
+      context: ./docker_kryptos
+      dockerfile: Dockerfile
     container_name: kryptos_api
     hostname: kryptos-api
     depends_on:
       - db
     environment:
-      - KRYPTOS_MONGODB_HOST=kryptos-db
-      - KRYPTOS_EMAIL_HOST_USER=[ENTER_EMAIL_HOST_USERNAME]
-      - KRYPTOS_EMAIL_HOST_PASSWORD=[ENTER_EMAIL_HOST_PASSWORD]
+      - KRYPTOS_EMAIL_HOST_USER=[YOUR_EMAIL_PROVIDER_HOST]
+      - KRYPTOS_EMAIL_HOST_PASSWORD=[YOUR_EMAIL_PROVIDER_PASSWORD]
     dns:
-      - 8.8.8.8
+      - [DNS_ADDRESS]
     networks:
-      - network
+      - kryptos
 
   bot:
-    image: lunanegra4139/kryptos_bot:1.0
+    build:
+      context: ./docker_kryptos_bot
+      dockerfile: Dockerfile
     container_name: kryptos_bot
     hostname: kryptos-bot
     depends_on:
       - api
     environment:
-      - KRYPTOS_API_HOST_IP=kryptos-api
-      - KRYPTOS_BOT_API_TOKEN=[ENTER_TELEGRAM_BOT_API_TOKEN_HERE]
+      - KRYPTOS_BOT_API_TOKEN=[YOUR_TELEGRAM_BOT_API_TOKEN]
     networks:
-      - network
+      - kryptos
 
 networks:
-  network:
+  kryptos:
     driver: bridge
+    ipam:
+      config:
+        - subnet: [KRYPTOS_SUBNET x.x.x.x/x]
 ```
 
 <p>
@@ -189,8 +195,8 @@ If you want to use another mail service except gmail, you have to create additio
 ```commandline
 KRYPTOS_EMAIL_HOST: Enter the address of email provider's server address.
 KRYPTOS_EMAIL_PORT: Enter the port for sending email with your email provider
-KRYPTOS_EMAIL_USE_TLS: If you want not to use TLS, please leave it as a blank. Default is True
-KRYPTOS_EMAIL_USE_SSL: if you want to use SSL, please type 1. Default is False
+KRYPTOS_EMAIL_USE_TLS: If you want not to use TLS, please type False or 0. Default is True.
+KRYPTOS_EMAIL_USE_SSL: if you want to use SSL, please type True or 1. Default is False.
 ```
 
 #### 2-2. Set 'bot' Service
@@ -229,45 +235,13 @@ After getting Telegram bot API token, please set the environment variable 'KRYPT
 </p>
 
 
-#### 3. Install with Customizing
+#### 3. Execute docker-compose
 <p>
-The containers for kryptos have a hidden credentials or configs. If you want to change 
-For custom database credentials or API settings, add environment variables below to the `docker-compose.yml` file.
+After finishing creating your own 'docker-compose.yml' file, execute 'sudo docker-compose up -d' command at the path where 'docker-compose.yml' is located.
 </p>
 
 ```commandline
-services:
-  db:
-    ...
-    environment:
-      - MONGO_INITDB_KRYPTOS_DBNAME=[ENTER_THE_CUSTOM_MONOGODB_NAME]
-      - MONGO_INITDB_KRYPTOS_USERNAME=[ENTER_THE_CUSTOM_MONGODB_USERNAME]
-      - MONGO_INITDB_KRYPTOS_PASSWORD=[ENTER_THE_CUSTOM_MONGODB_PASSWORD]
-    ...
-
-  api:
-    ...
-    environment:
-      - KRYPTOS_MONGODB_DB=[ENTER_THE_CUSTOM_MONGODB_NAME]
-      - KRYPTOS_MONGODB_USERNAME=[ENTER_THE_CUSTOM_MONGODB_USERNAME]
-      - KRYPTOS_MONGODB_PASSWORD=[ENTER_THE_CUSTOM_MONGODB_PASSWORD]
-      - KRYPTOS_DRF_TIMEZONE=[ENTER_CUSTOM_TIMEZONE_IN_IANA_FORMAT]
-    ...
-
-  bot:
-    ...
-    environment:
-      - KRYPTOS_BOT_API_TOKEN=[ENTER_TELEGRAM_BOT_API_TOKEN_HERE]
-    ...
-```
-
-#### 4. Execute docker-compose
-<p>
-After finishing creating your own 'docker-compose.yml' file, execute 'docker-compose up -d' command at the path where 'docker-compose.yml' is located.
-</p>
-
-```commandline
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 #### 5. Install Trouble Shooting
@@ -290,14 +264,20 @@ Please edit your 'docker-compose.yml' file at db section with 'image: lunanegra4
 
 ### V. Version Info
 <ul>
+  <li>2025.06.15: Version 1.1. Publish beta version of Kryptos.</li>
   <li>2025.01.24: Version 1.0. Publish beta version of Kryptos.</li>
 </ul>
 
 
 ### VI. Additional Information.
+<span><b>2025.06.15 15:05 Sun</b></span>
+<ol>
+  <li><b>Version 1.1 Beta</b></li>
+  <li>This is a beta version and the max number of account which you can store without license is 5.</li>
+  <li>Apply Telegram Bot Framework(mizuhara) and update managing messages.</li>
+</ol>
 <span><b>2025.01.24 14:46 Fri</b></span>
 <ol>
+  <li><b>Version 1.0 Beta</b></li>
   <li>This is a beta version and the max number of account which you can store without license is 5.</li>
-  <li>You can buy a license from version 1.1 </li>
-  <li>Documents for usage will be published on my Github blog.</li>
 </ol>

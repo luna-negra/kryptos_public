@@ -3,7 +3,7 @@ from django.utils.text import capfirst
 from django.contrib.auth.password_validation import validate_password
 from django.core.mail import send_mail
 
-from .backends import CustomUserBackend
+from .backends import CustomUserBackend, datetime
 from core.serializers import (AccountChatAccessSerializer,
                               AccountAuthAccessSerializer,
                               AccountActiveAccessSerializer,
@@ -246,6 +246,11 @@ class AccountGetInfoSerializer(AccountActiveAccessSerializer):
         return self._account.get_information()
 
 
+class AccountGetActivationInfoSerializer(AccountAuthAccessSerializer):
+    def save(self):
+        return self._account.is_active
+
+
 class AccountUpdateSerializer(AccountActiveAccessSerializer):
     class Meta:
         model = AccountActiveAccessSerializer.Meta.model
@@ -306,6 +311,12 @@ class AccountRegisterLicenseSerializer(AccountActiveAccessSerializer):
 
         if self._account.email != data.get("license_info").get("kryptos_account_email"):
             raise ValidationError("License is not valid for current account.")
+
+        if str(datetime.now()).replace(" ", "T") < data.get("license_info").get("kryptos_license_issued"):
+            raise ValidationError("License is not in activation status.")
+
+        if str(datetime.now()).replace(" ", "T") > data.get("license_info").get("kryptos_license_expire"):
+            raise ValidationError("License has been expired.")
 
         return data
 

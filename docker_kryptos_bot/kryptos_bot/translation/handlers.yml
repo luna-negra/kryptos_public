@@ -1,0 +1,770 @@
+activation:
+  en: "✅ Success to activate your account."
+  ko: "✅ 성공적으로 계정을 활성화하였습니다."
+  ja: "✅ アカウントの有効化に成功しました。"
+
+activation_code:
+  en: |
+    [𝄃𝄂𝄂𝄃 Activate Kryptos Account]
+    
+    Input 6-digits activation code below.
+  ko: |
+    [𝄁𝄃𝄂𝄂𝄃 Kryptos 계정 활성화]
+    
+    6자리 활성화 코드를 입력해주세요.
+  ja: |
+    [𝄃𝄂𝄂𝄃 Kryptosアカウントを有効化]
+    
+    下記に6桁のアクティベーションコードを入力してください。
+
+change_language:
+  en: |
+    [🌐 Language]
+    
+    Please select the language you want.
+  ko: |
+    [🌐 언어 변경]
+    
+    변경하려는 언어를 선택해주세요.
+  ja: |
+    [🌐 言語]
+    
+    ご希望の言語を選択してください。
+
+change_name:
+  en: |
+    [📇 Change Name]
+    
+    Please choose the button to edit.
+  ko: |
+    [📇 이름 변경]
+    
+    변경하려는 항목을 선택해주세요.
+  ja: |
+    [📇 名前の変更]
+    
+    編集したい項目を選択してください。
+
+current_password_for_update_doc:
+  en: |
+    [🔏 Update Password of Account Information]
+    
+    ** Please input the current password for selected account
+  ko: |
+    [🔏 등록 계정 정보 비밀번호 변경]
+    
+    ** 선택한 계정 정보의 현재 비밀번호를 입력해주세요.
+  ja: |
+    [🔏　登録アカウント情報のパスワード更新]
+    
+    ** 選択したアカウントの現在のパスワードを入力してください
+
+change_settings:
+  en: "[Change Settings]\n* Please select the button below."
+  ko: "[설정 변경]\n* 변경하려는 항목을 선택하세요."
+  ja: "[設定変更]\n* 以下のボタンを選択してください。"
+
+delete_doc:
+  en: "✅ Success to delete your account"
+  ko: "✅ 계정을 정상적으로 삭제하였습니다."
+  ja: "✅ アカウントの削除に成功しました。"
+
+delete_kryptos:
+  en: "✅ Successfully remove your Kryptos account."
+  ko: "✅ Kryptos 계정을 정상적으로 삭제하였습니다."
+  ja: "✅ Kryptosアカウントを正常に削除しました。"
+
+delete_kryptos_password:
+  en: |
+    [🛇 Delete Kryptos]
+    
+    Please note, if you delete your Kryptos account, 
+    all your information stored in Kryptos will be erased. 
+    
+    If you really want to erase Kryptos account,
+    please input your current password for your Kryptos account.
+  ko: |
+    [🛇 Kryptos 계정 삭제]
+    
+    Kryptos 계정 삭제 시, 
+    Kryptos에 저장된 모든 정보는 삭제됩니다.
+    
+    Kryptos 계정의 삭제를 원하면, 
+    현재 Kryptos 계정의 비밀번호를 입력해주세요.
+  ja: |
+    [🛇 Kryptosアカウント削除]
+    
+    Kryptosアカウントを削除すると、 
+    Kryptosに保存されているすべての情報が消去されます。
+    
+    本当にKryptosアカウントを削除したい場合は、
+    現在のKryptosアカウントのパスワードを入力してください。
+
+description_for_new_doc:
+  en: |
+    [🆕 Register New Account Information]
+
+    ** Please input the description for selected account
+  ko: |
+    [🆕 새 계정 정보 등록]
+
+    ** 선택한 계정 정보의 설명을 입력해주세요.
+  ja: |
+    [🆕 新しいアカウント情報を登録]
+
+    ** 選択したアカウントの説明を入力してください。
+
+description_for_search_docs:
+  en: |
+    [🔍 Search Account Information]
+
+    ** Please input the description in your account information which you want to see.
+  ko: |
+    [🔍 계정 정보 검색]
+
+    ** 검색하려는 계정 정보에 등록된 설명을 입력해주세요.
+  ja: |
+    [🔍 アカウント情報の検索]
+
+    ** 確認したいアカウント情報の説明を入力してください。
+
+description_for_update_doc:
+  en: |
+    [🔏 Update Description of Account Information]
+
+    ** Please input the description that you want to change for selected account
+  ko: |
+    [🔏 등록 계정 정보 설명 변경]
+
+    ** 선택한 계정 정보의 변경하려는 설명을 입력해주세요.
+  ja: |
+    [🔏 アカウント情報の説明更新]
+
+    ** 変更したい説明を入力してください
+
+edit_doc_description:
+  en: "✅ Successfully edit the description for selected account."
+  ko: "✅ 선택한 계정의 설명을 정상적으로 변경하였습니다."
+  ja: "✅ 選択したアカウントの説明が正常に変更されました。"
+
+edit_doc_password:
+  en: "✅ Successfully edit the password for selected account."
+  ko: "✅ 선택한 계정의 비밀번호를 정상적으로 변경하였습니다."
+  ja: "✅ 選択したアカウントのパスワードが正常に変更されました。"
+
+edit_doc_site:
+  en: "✅ Successfully edit the site for selected account."
+  ko: "✅ 선택한 계정의 사이트를 정상적으로 변경하였습니다."
+  ja: "✅ 選択したアカウントのサイトが正常に変更されました。"
+
+edit_doc_username:
+  en: "✅ Successfully edit the username for selected account."
+  ko: "✅ 선택한 계정의 ID/계정명을 정상적으로 변경하였습니다."
+  ja: "✅ 選択したアカウントのID/アカウント名が正常に変更されました。"
+
+edit_first_name:
+  en: |
+    [📝 Edit First Name]
+
+    ** Please input the first name you want to change.
+  ko: |
+    [📝 이름(First Name) 변경]
+    
+    ** 변경할 이름(First Name)을 입력해주세요.
+  ja: |
+    [📝 名前（First Name）変更]
+
+    ** 変更したい名前（First Name）を入力してください。
+
+edit_last_name:
+  en: |
+    [📝 Edit Last Name]
+
+    ** Please input the last name you want to change.
+  ko: |
+    [📝 성(Last Name) 변경]
+    
+    ** 변경할 성(Last Name)을 입력해주세요.
+  ja: |
+    [📝 名字（Last Name）変更]
+
+    ** 変更したい姓（Last Name）を入力してください。
+
+explain_activation_code:
+  en: |
+    [💡 Activate Your Kryptos]
+    
+    Your account is not activated yet. 
+    The activation code was sent to your email.
+    
+    If you can not find any mail, please click '{}' button to get an activation code.  
+    
+    If the code was transmitted, please click '{}' button and enter your 6-digit code.
+  ko: |
+    [💡 Kryptos 계정 활성화]
+    
+    계정이 아직 활성화되지 않았습니다. 
+    등록한 메일로 활성화코드 6자리를 전송하였습니다. 
+    
+    메일 전송 내역이 없는 경우, '{}' 버튼을 눌러 활성화코드를 전송받으세요.
+    
+    코드가 전송된 경우, '{}' 버튼 클릭 후, 전송된 6자리 코드를 입력해주세요.
+  ja: |
+    [💡 Kryptosアカウントの有効化]
+
+    アカウントがまだ有効化されていません。
+    アクティベーションコードは登録されたのメールに送信されました。
+
+    メールが見つからない場合は、'{}'ボタンをクリックしてアクティベーションコードを取得してください。
+
+    コードが送信された場合は、'{}'ボタンをクリックして、6桁のコードを入力してください。
+
+guide_force_reply_cancel:
+  en: "ⓘ If you want to quit, click 'cancel' button."
+  ko: "ⓘ 중지하려면 '취소' 버튼을 누르세요."
+  ja: "ⓘ 終了したい場合は、「キャンセル」ボタンをクリックしてください。"
+
+license settings prompt:
+  en: "[License Settings] Please select one of button below."
+  ko: "[라이센스 설정]\n아래의 버튼 중 하나를 선택하세요."
+  ja: "[ライセンス設定] 以下のボタンのいずれかを選択してください。"
+
+password_for_change_password:
+  en: |
+    [🔐 Change Password] 
+    
+    ** Please input your current password for Kryptos account.
+  ko: |
+    [🔐 Kryptos 계정 비밀번호 변경]
+    
+    ** 현재 Kryptos 계정의 비밀번호를 입력하세요.
+  ja: |
+    [🔐 パスワード変更]
+
+    ** 現在のKryptosアカウントのパスワードを入力してください。
+
+management:
+  en: |
+    [🗂️ Account Management]
+    
+    Let's manage all your account.
+    Please select the one of button below that you want to do.
+  ko: |
+    [🗂️ 계정 관리]
+    
+    계정 관리를 시작합니다.
+    아래의 버튼 중 하나를 선택해 주세요.
+  ja: |
+    [🗂️ アカウント管理]
+    
+    すべてのアカウントを管理しましょう。
+    実行したいボタンのいずれかを選択してください。
+
+max_access_try:
+  en: |
+    [🎯 Max Access Times]
+    
+    ** Please set the max number of access attempts(3 ~ 5)"
+  ko: |
+    [🎯 최대 로그인 시도 횟수 변경]
+    
+    ** 변경하려는 최대 로그인 시도 횟수를 지정해주세요(3 ~ 5)
+  ja: |
+    [🎯 最大アクセス試行回数]
+    
+    ** 最大のアクセス試行回数（3〜5）を設定してください。
+
+new_password_for_change_password:
+  en: |
+    [🔐 Change Password] 
+    
+    ** Please input new password for Kryptos account.
+    
+    Password must 
+    - contain at least one upper alphabet.
+    - contain at least one lower alphabet.
+    - contain at least one digit.
+    - contain at least one special.
+    - be at least 8 characters.
+  ko: |
+    [🔐 Kryptos 계정 비밀번호 변경]
+    
+    ** Kryptos 계정의 새 비밀번호를 입력하세요.
+  
+    비밀번호는 반드시 아래의 조건을 충족해야 합니다.
+    - 하나 이상의 포함 대문자 포함
+    - 하나 이상의 영문 소문자 포함
+    - 하나 이상의 숫자 포함
+    - 하나 이상의 특수문자 포함
+    - 8자 이상으로 구성
+  ja: |
+    [🔐 パスワード変更] 
+    
+    ** 新しいKryptosアカウントのパスワードを入力してください。
+    
+    パスワードは以下の条件を満たす必要があります。
+    - 1文字以上の大文字を含む
+    - 1文字以上の小文字を含む
+    - 1つ以上の数字を含む
+    - 1つ以上の特殊文字を含む
+    - 8文字以上である
+
+new_password_for_update_doc:
+  en: |
+    [🔏 Update Password of Account Information]
+
+    ** Please input the new password for selected account
+  ko: |
+    [🔏 등록 계정 정보 비밀번호 변경]
+
+    ** 선택한 계정 정보의 변경하려는 새 비밀번호를 입력해주세요.
+  ja: |
+    [🔏 アカウント情報のパスワード更新]
+
+    ** 選択したアカウント情報の新しいパスワードを入力してください。
+
+password_for_new_doc:
+  en: |
+    [🆕 Register New Account]
+    
+    ** Please input your password for your new account information.
+  ko: |
+    [🆕 새 계정 정보 등록]
+    
+    ** 새 계정 정보의 비밀번호를 입력해주세요.
+  ja: |
+    [🆕 新しいアカウント情報を登録]
+
+    ** 新しいアカウント情報のパスワードを入力してください。
+
+register_license:
+  en: "✅ Successfully register new Kryptos license."
+  ko: "✅ 정상적으로 새 Kryptos 라이센스를 등록했습니다."
+  ja: "✅ 新しいKryptosライセンスを正常に登録しました。"
+
+register_new_doc:
+  en: "✅ Successfully register your new account."
+  ko: "✅ 정상적으로 새 계정 정보를 등록했습니다."
+  ja: "✅ 新しいアカウント情報を正常に登録しました。"
+
+search_account:
+  en: |
+    [🔍 Search Account]
+    
+    Select one of the way to find your account below.
+  ko: |
+    [🔍 계정 검색]
+    
+    아래의 버튼 중 검색하려는 방식을 선택해주세요.
+  ja: |
+    [🔍 アカウント検索]
+    
+    下のボタンからアカウントを検索する方法を選択してください。 
+
+search_result_list_text:
+  en: |
+    [🔍 Account Search Result - {} Cases]
+    
+    Please select the one of account information you want to see below.
+  ko: |
+    [🔍 계정 검색 결과: {} 건]
+    
+    아래의 검색 결과 중 조회하려는 계정 정보를 선택해주세요.
+  ja: |
+    [🔍 アカウント検索結果 - {} 件]
+    
+    以下の検索結果から表示したいアカウント情報を選択してください。
+
+send_code:
+  en: "✅ Send activation code to your mail"
+  ko: "✅ 메일로 활성화 코드를 전송하였습니다."
+  ja: "✅ メールにアクティベーションコードを送信しました。"
+
+settings_prompt:
+  en: | 
+    [🔧 Kryptos Settings]
+    
+    Select one of settings button below.
+  ko: |
+    [🔧 Kryptos 설정]
+    
+    아래의 설정 버튼 중 하나를 선택하세요.
+  ja: | 
+    [🔧 Kryptos設定]
+    
+    以下の設定ボタンから一つを選択してください。
+
+show_current_kryptos_settings:
+  en: | 
+    [⚙️ Current Kryptos Settings]
+    
+    * Registered Email: {}
+    * First Name: {}
+    * Last Name: {}
+    * Language: {}
+    * Max Access Try Limit: {}
+    * Password Visibilities: {} %
+    * Last Sign In: {}
+    * Last Sign Out: {}
+    * Last Update: {}
+    * Registered on: {}
+  ko: |
+    [⚙️ 현재 Kryptos 설정]
+    
+    * 등록 이메일: {}
+    * 이름(First Name): {}
+    * 성(Last Name: {}
+    * 언어 설정: {}
+    * 최대 로그인 시도 횟수: {}
+    * 비밀번호 노출도: {} %
+    * 마지막 로그인: {}
+    * 마지막 로그아웃: {}
+    * 마지막 업데이트: {}
+    * 등록일: {}
+  ja: |
+    [⚙️ 現在のKryptos設定]
+    
+    * 登録メール: {}
+    * 名前(First Name): {}
+    * 名字(Last Name): {}
+    * 言語設定: {}
+    * 最大アクセス試行回数: {}
+    * パスワード可視性: {} %
+    * 最後のサインイン: {}
+    * 最後のサインアウト: {}
+    * 最後の更新: {}
+    * 登録日: {}
+
+show_current_license_info:
+  en: |
+    [📜 Current License]
+    
+    * License Version: {}
+    * Maximum Number of Registrable Accounts: {}
+    * License Expiration: {}
+    * License Issuance: {}
+  ko: |
+    [📜 현재 등록된 라이센스]
+    
+    * 라이센스 버전: {}
+    * 등록 가능한 최대 계정 수: {}
+    * 라이센스 만료일: {}
+    * 라이센스 발급일: {}
+  ja: |
+    [📜 現在のライセンス]
+    
+    * ライセンスバージョン: {}
+    * 登録可能な最大アカウント数: {}
+    * ライセンスの有効期限: {}
+    * ライセンス発行日: {}
+
+show_doc_info:
+  en: |
+    [Account Info]
+    
+    * Site URL: {}
+    * Username: {}
+    * Password: {}
+    * Description: {}
+  ko: | 
+    [계정 정보]
+    
+    * 사이트 주소: {}
+    * ID/계정: {}
+    * 비밀번호: {}
+    * 게정 설명: {}
+  ja: |
+    [アカウント情報]
+    
+    * サイトURL: {}
+    * ユーザー名: {}
+    * パスワード: {}
+    * アカウント説明: {}
+
+signin:
+  en: "✅ Success to signin."
+  ko: "✅ 정상적으로 로그인 되었습니다."
+  ja: "✅ ログインに成功しました。"
+
+signin_email:
+  en: |
+    [➡️ Sign In]
+    
+    ** Enter Your E-mail Address for Kryptos.
+  ko: |
+    [➡️ 로그인]
+    
+    ** Kryptos 가입 시 등록한 이메일 주소를 입력하세요.
+  ja: |
+    [➡️ ログイン]
+    
+    ** Kryptosに登録したメールアドレスを入力してください。
+
+signin_password:
+  en: |
+    [➡️ Sign In] 
+    
+    ** Enter your Kryptos password.
+  ko: |
+    [➡️ 로그인]
+    
+    ** Kryptos 계정 비밀번호를 입력해주세요.
+  ja: |
+    [➡️ ログイン] 
+    
+    ** Kryptosアカウントのパスワードを入力してください。
+
+signout:
+  en: "✅ Success to signout"
+  ko: "✅ 정상적으로 로그아웃 되었습니다."
+  ja: "✅ ログアウトに成功しました。"
+
+signup:
+  en: "✅ Success to Signup"
+  ko: "✅ 정상적으로 회원가입 되었습니다."
+  ja: "✅ 正常に会員登録が完了しました。"
+
+signup_email:
+  en: |
+    [📝 Sign Up]
+    
+    ** Enter your E-mail to register Kryptos account.
+    
+    you will get an activation code via your email after signup. So please enter your email address that you are using now.
+  ko: |
+    [📝 회원 가입]
+     
+    ** Kryptos 계정에 사용할 이메일 주소를 입력해주세요.
+    
+    회원 가입 이후, 등록된 메일로 계정 활성화 코드가 전달됩니다. 반드시 현재 사용중인 메일 주소를 입력해주세요.
+  ja: |
+    [📝 会員登録]
+    
+    ** Kryptosアカウントに登録するためのメールアドレスを入力してください。
+    
+    登録後、メールにアクティベーションコードが届きますので、現在使用しているメールアドレスを入力してください。
+signup_password:
+  en: |
+    [📝 Sign Up]
+    
+    ** Enter your password for new Kryptos Account.
+    
+    Password must 
+    - contain at least one upper alphabet.
+    - contain at least one lower alphabet.
+    - contain at least one digit.
+    - contain at least one special.
+    - be at least 8 characters.
+  ko: |
+    [📝 회원 가입]
+  
+    ** Kryptos 계정에 사용할 비밀번호를 입력해주세요.
+    
+    비밀번호는 반드시 아래의 조건을 충족해야 합니다.
+    - 하나 이상의 포함 대문자 포함
+    - 하나 이상의 영문 소문자 포함
+    - 하나 이상의 숫자 포함
+    - 하나 이상의 특수문자 포함
+    - 8자 이상으로 구성
+  ja: |
+    [📝 新規登録]
+    
+    ** 新しいKryptosアカウントのパスワードを入力してください。
+    
+    パスワードは以下の条件を満たす必要があります。
+    - 1文字以上の大文字を含む
+    - 1文字以上の小文字を含む
+    - 1つ以上の数字を含む
+    - 1つ以上の特殊文字を含む
+    - 8文字以上である
+
+site_for_new_doc:
+  en: |
+    [🆕 Register New Account]
+
+    ** Please input site URL for your new account information.
+  ko: |
+    [🆕 새 계정 정보 등록]
+
+    ** 새 계정 정보의 사이트 URL 주소를 입력해주세요.
+  ja: |
+    [🆕 新しいアカウントを登録]
+
+    ** 新しいアカウント情報のサイトURLを入力してください。
+
+site_for_search_docs:
+  en: |
+    [🔍 Search Account with Site URL]
+
+    ** Please input site URL for your registered account.
+  ko: |
+    [🔍 사이트 URL로 등록 계정 검색]
+
+    ** 검색하려는 계정의 사이트 URL 주소를 입력해주세요.
+  ja: |
+    [🔍 サイトURLでアカウント検索]
+
+    ** 登録されたアカウントのサイトURLを入力してください。
+
+site_for_update_doc:
+  en: |
+    [🔏 Update Site URL of Account Information]
+
+    ** Please input the site URL that you want to change for selected account
+  ko: |
+    [🔏 등록 계정 정보 사이트 주소 변경]
+
+    ** 선택한 계정 정보의 변경하려는 사이트 URL 주소를 입력해주세요.
+  ja: |
+    [🔏 アカウント情報のサイトURLを更新]
+
+    ** 選択したアカウントの変更したいサイトURLを入力してください。
+
+statistics:
+  en: | 
+    [📊 Statistics for Stored Account]
+    
+    * Total Number of Account: {}
+    * Passwords with fewer than 8 characters: {}
+    * Passwords without uppercase letters: {}
+    * Passwords without lowercase letters: {}
+    * Passwords without special characters: {}
+    * Passwords without digits: {}
+    * Passwords unchanged for over 90 days: {}
+  ko: |
+    [📊 등록 계정 통계]
+    
+    * 전체 등록 계정 수: {}
+    * 8자리 미만 비밀번호 수: {}
+    * 대문자 미포함 비밀번호 수: {}
+    * 소문자 미포함 비밀번호 수: {}
+    * 특수문자 미포함 비밀번호 수: {}
+    * 숫자 미포함 비밀번호 수: {}
+    * 90일 이상 미변경 비밀번호 수: {}
+  ja: |
+    [📊 保存されたアカウントの統計]
+    
+    * 登録アカウント数: {}
+    * 8文字未満のパスワード数: {}
+    * 大文字を含まないパスワード数: {}
+    * 小文字を含まないパスワード数: {}
+    * 特殊文字を含まないパスワード数: {}
+    * 数字を含まないパスワード数: {}
+    * 90日以上変更されていないパスワード数: {}
+
+update_first_name:
+  en: "✅ Success to update first name."
+  ko: "✅ 정상적으로 이름(First Name)을 변경하였습니다."
+  ja: "✅ 名（First Name）の更新に成功しました。"
+
+update_language:
+  en: "✅ Success to update language settings"
+  ko: "✅ 정상적으로 언어 설정을 변경하였습니다."
+  ja: "✅ 言語設定の更新に成功しました。"
+
+update_last_name:
+  en: "✅ Success to update last name."
+  ko: "✅ 정상적으로 성(Last Name)을 변경하였습니다."
+  ja: "✅ 名字（Last Name）の更新に成功しました。"
+
+update_password:
+  en: "✅ Success to update password."
+  ko: "✅ 정상적으로 비밀번호를 변경하였습니다."
+  ja: "✅ パスワードの更新に成功しました。"
+
+update_max_access_try:
+  en: "✅ Success to update max access limit"
+  ko: "✅ 정상적으로 최대 로그인 시도 횟수를 변경하였습니다."
+  ja: "✅ 最大アクセス制限の更新に成功しました。"
+
+update_visibility:
+  en: "✅ Success to update visibility"
+  ko: "✅ 정상적으로 비밀번호 노출도를 변경하였습니다."
+  ja: "✅ パスワードの可視性の更新に成功しました。"
+
+upload_license_file:
+  en: |
+    [🪪 Register License File]
+    
+    ** Please upload your Kryptos license file(zip).
+    (🔗 -> File -> Select your license file)
+  ko: |
+    [🪪 라이센스 등록]
+    
+    ** Kryptos 라이센스 파일(zip)을 업로드 해 주세요.
+    (🔗 -> 파일 -> 라이센스 파일 선택)
+  ja: |
+    [🪪 ライセンスファイルの登録]
+    
+    ** Kryptosライセンスファイル(zip)をアップロードしてください。
+    (🔗 -> ファイル -> ライセンスファイルを選択)
+
+username_for_new_doc:
+  en: |     
+    [🆕 Register New Account Information]
+
+    ** Please input the ID/Username for selected account
+  ko: |
+    [🆕 새 계정 정보 등록]
+
+    ** 선택한 계정 정보의 ID/계정명을 입력해주세요.
+  ja: |
+    [🆕 新しいアカウント情報の登録]
+
+    ** 選択したアカウント情報のID/ユーザー名を入力してください。
+
+username_for_update_doc:
+  en: |
+    [🔏 Update ID/Username of Account Information]
+
+    ** Please input the ID/Username that you want to change for selected account
+  ko: |
+    [🔏 등록 계정 정보 사이트 주소 변경]
+
+    ** 선택한 계정 정보의 변경하려는 ID/계정명을 입력해주세요.
+  ja: |
+    [🔏 アカウント情報のID/ユーザー名を更新]
+
+    ** 選択したアカウント情報の変更したいID/ユーザー名を入力してください。
+
+visibility:
+  en: |
+    [👁️ Password Visibility] 
+    
+    ** Please set the percentage of password visibility for your account(20 ~ 80)
+  ko: |
+    [👁️ 비밀번호 노출도 변경]
+
+    ** 변경할 비밀번호 노출도(%)를 입력하세요(20 ~ 80)
+  ja: |
+    [👁️ パスワードの可視性]
+    
+    ** アカウントのパスワードの可視性の割合（20〜80）を設定してください
+
+welcome_anon:
+  en: |
+    [Kryptos - Password Manager]
+    
+    Please do 'sign in' or 'sign up' before using Kryptos.
+  ko: |
+    [Kryptos - 비밀번호 관리 봇]
+    
+    Kryptos를 사용하기 전에 '로그인' 또는 '회원가입을 진행해주세요.
+  ja: |
+    [Kryptos - パスワードマネージャー]
+    
+    Kryptosを使用する前に「サインイン」または「サインアップ」を行ってください。
+
+welcome_member:
+  en: |
+    [🏛️ Main Page]
+    
+    Hello '{}', What can I help you?
+  ko: |
+    [🏛️ 메인 페이지]
+    
+    안녕하세요, '{}'님. 무엇을 도와드릴까요?
+  ja: |
+    [🏛️ メインページ]
+    
+    こんにちは、'{}'様。何かお手伝いできることはありますか？

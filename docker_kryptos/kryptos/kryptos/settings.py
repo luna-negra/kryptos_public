@@ -12,7 +12,10 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
-from mongoengine import connect as mongodb_connect
+
+from mongoengine import (get_connection,
+                         connect as mongodb_connect)
+from django.utils.log import request_logger
 from os import getenv
 
 
@@ -35,7 +38,7 @@ SECRET_KEY = getenv("KRYPTOS_DRF_API_TOKEN")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 HOSTNAME=getenv("HOSTNAME")
-BOT_HOSTNAME=getenv("KRYPTOS_BOT_HOST") or "kryptos-bot"
+BOT_HOSTNAME="kryptos-bot"
 ALLOWED_HOSTS = [HOSTNAME,]
 
 
@@ -88,14 +91,29 @@ WSGI_APPLICATION = 'kryptos.wsgi.application'
 
 
 # Database
-mongodb_connect(
-    db=getenv("KRYPTOS_MONGODB_DB") or "THIS_IS_SECRET",
-    host=getenv("KRYPTOS_MONGODB_HOST"),
-    port=int(getenv("KRYPTOS_MONGODB_PORT") or 27017),
-    username=getenv("KRYPTOS_MONGODB_USERNAME") or "THIS_IS_SECRET",
-    password=getenv("KRYPTOS_MONGODB_PASSWORD") or "THIS_IS_SECRET",
-    authentication_source=getenv("KRYPTOS_MONGODB_DB") or "THIS_IS_SECRET",
-)
+while True:
+    mongodb_connect(
+        db="THIS_IS_SECRET",
+        host="kryptos-db",
+        port=int(getenv("KRYPTOS_MONGODB_PORT") or 27017),
+        username="THIS_IS_SECRET",
+        password="THIS_IS_SECRET",
+        authentication_source="THIS_IS_SECRET",
+        serverSelectionTimeoutMS=5000,  # searching db server timeout for 5 secs
+        connectTimeoutMS=2000,          # connection timeout for 2 secs
+        socketTimeoutMS=3000            # Waiting timeout for 3 secs
+    )
+
+    try:
+        # check the connection.
+        get_connection().admin.command("ping")
+        request_logger.info(f"[INFO] Successfully connect to Database.")
+        break
+
+    except Exception as e:
+        # fail log for db connection.
+        request_logger.error(f"[ERROR] Fail to connect to Database. Retry...)")
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -157,7 +175,6 @@ EMAIL_USE_SSL = getenv("KRYPTOS_EMAIL_USE_SSL") or False
 CORS_ALLOWED_ORIGINS = [
     f"http://{HOSTNAME}:8000",
 ]
-
 
 CORS_ALLOW_HEADERS = [
     "authorization",
