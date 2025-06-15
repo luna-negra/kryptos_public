@@ -254,6 +254,9 @@ class Accounts(mg.Document):
                                        "is_superuser")) -> dict:
         data = self.to_mongo().to_dict()
 
+        if data.get("license_info").get("kryptos_digital_sign", None) is not None:
+            data.get("license_info").pop("kryptos_digital_sign")
+
         for field in exclude:
             data.pop(field)
 

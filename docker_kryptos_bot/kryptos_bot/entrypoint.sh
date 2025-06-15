@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set env for license codebook
-export KRYPTOS_BOT_CODEBOOK=THIS_IS_A_SECRET
+export KRYPTOS_BOT_CODEBOOK=THIS_IS_SECRET
 
 # Validate ENV
 if [ -z "$KRYPTOS_BOT_API_TOKEN" ]; then
@@ -10,17 +10,9 @@ if [ -z "$KRYPTOS_BOT_API_TOKEN" ]; then
   exit 1
 fi
 
-if [ -z "$KRYPTOS_API_HOST_IP" ]; then
-  echo "[ERROR] KRYPTOS_API_HOST_IP is not set."
-  echo "Please run container again with '-e KRYPTOS_API_HOST_IP=[KRYPTOS_API_CONTAINER_HOST_IP]'"
-  exit 1
-fi
+# remove bash and sh
+rm /usr/bin/sh /bin/sh
 
-# Start the first Python script (kryptos_bot.py) in the background
-python kryptos_bot.py &
+# get CMD arguments and execute: 2025.06.04
+exec $@
 
-# Block Container shell
-rm /usr/bin/*
-
-# Wait for all background processes to finish
-wait

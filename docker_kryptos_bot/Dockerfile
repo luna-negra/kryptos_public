@@ -8,11 +8,11 @@ COPY kryptos_bot/ /usr/local/src/kryptos_bot
 WORKDIR /usr/local/src/kryptos_bot
 
 # Change permission of entrypoint.sh
-# Install pip packages
-RUN chmod 755 ./entrypoint.sh && \
-    pip install -r ./requirements.txt
+# Install pip packages and create normal user
+RUN chmod 755 ./entrypoint.sh && pip install -r ./requirements.txt
 
-# Run scripts
+# Run scripts entrypoint.sh to check prerequisites
 ENTRYPOINT ["./entrypoint.sh"]
 
-# All files and folders must be in kryptos folder
+# Run Command
+CMD ["python", "execute.py"]

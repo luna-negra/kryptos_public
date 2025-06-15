@@ -2,17 +2,15 @@
 FROM mongo:latest
 
 # Create directory for the init script and copy it
-COPY init_kryptos_mongo.js /docker-entrypoint-initdb.d/init_kryptos_mongo.js
-RUN chmod 755 /docker-entrypoint-initdb.d/init_kryptos_mongo.js
+COPY entrypoint.sh /docker-entrypoint-initdb.d/entrypoint.sh
+RUN chmod 755 /docker-entrypoint-initdb.d/entrypoint.sh
 
 # Expose port
 EXPOSE 27017
 
-# Clean-up after initialization and start MongoDB
-CMD mongod & \
-    sleep 10 && \
-    rm -f /docker-entrypoint-initdb.d/init_kryptos_mongo.js && \
-    wait $!
+# command executing mongod with binding all ip is innated in mongo image.
+# if you need to change it, please add CMD command below with --auth option
+CMD ["mongod", "--auth"]
 
 # Please Note
 # run the container with --auth option.

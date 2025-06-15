@@ -105,6 +105,25 @@ def get_info(request):
                                                                   partial=True))
 
 
+@api_view(["GET"])
+def is_active(request):
+    """
+    check the user is in active status or not
+
+    :param request:
+    :return:
+    """
+
+    auth_str, chat_info, res_data, status_code = check_user_request(request=request,
+                                                                    msg="get an activation status for user.")
+    return get_result_from_serializer(status_code=status_code,
+                                      res_data=res_data,
+                                      sr=AccountGetActivationInfoSerializer(data=request.data,
+                                                                            auth_str=auth_str,
+                                                                            chat_info=chat_info,
+                                                                            partial=True))
+
+
 @api_view(["POST"])
 def register_license(request):
     """

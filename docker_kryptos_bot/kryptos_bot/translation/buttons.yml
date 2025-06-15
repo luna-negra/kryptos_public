@@ -1,0 +1,174 @@
+cancel:
+  en: "🛇 Cancel"
+  ko: "🛇 취소"
+  ja: "🛇 キャンセル"
+
+change_first_name:
+  en: "First Name"
+  ko: "이름 변경(First Name)"
+  ja: "名前変更(First Name)"
+
+change_language:
+  en: "🌐 Change Language"
+  ko: "🌐 언어 변경"
+  ja: "🌐 言語変更"
+
+change_last_name:
+  en: "Last Name"
+  ko: "성 변경(Last Name)"
+  ja: "名字変更(Last Name)"
+
+change_max_access_limit:
+  en: "🎯 Change Max Access Times"
+  ko: "🎯 로그인 시도 횟수 변경"
+  ja: "🎯 最大アクセス回数変更"
+
+change_name:
+  en: "📇 Change Name"
+  ko: "📇 이름 변경"
+  ja: "📇 名前変更"
+
+change_password:
+  en: "🔐 Change Password"
+  ko: "🔐 비밀번호 변경"
+  ja: "🔐 パスワード変更"
+
+change_visibility:
+  en: "👁️ Change Password Visibility"
+  ko: "👁️ 비밀번호 노출도 변경"
+  ja: "👁️ パスワード可視性変更"
+
+continue:
+  en: "⏩ Continue"
+  ko: "⏩ 계속"
+  ja: "⏩ 続ける"
+
+delete_doc:
+  en: "🗑️ Delete This Account"
+  ko: "🗑️ 이 계정 정보 삭제"
+  ja: "🗑️ このアカウントを削除"
+
+delete_kryptos:
+  en: "🚮 Delete Kryptos"
+  ko: "🚮 Kryptos 삭제"
+  ja: "🚮 Kryptos 削除"
+
+edit_doc:
+  en: "🔁 Edit This Account"
+  ko: "🔁 이 계정 정보 수정"
+  ja: "🔁 このアカウントを編集"
+
+edit_doc_with_site:
+  en: "@ Edit the site URL"
+  ko: "@ 사이트 주소 변경"
+  ja: "@ サイトURL編集"
+
+edit_doc_with_username:
+  en: "🆔 Edit the Username"
+  ko: "🆔 ID/계정명 변경"
+  ja: "🆔 ユーザー名編集"
+
+edit_doc_with_password:
+  en: "🔏 Edit the password"
+  ko: "🔏 계정 비밀번호 변경"
+  ja: "🔏 パスワード編集"
+
+edit_doc_with_description:
+  en: "📑 Edit the description"
+  ko: "📑 계정 설명 변경"
+  ja: "📑 説明編集"
+
+en:
+  en: "🇬🇧 English"
+  ko: "🇬🇧 English"
+  ja: "🇬🇧 English"
+
+input_code:
+  en: "𝄀𝄁𝄃𝄂𝄂𝄃 Input Activation Code"
+  ko: "𝄀𝄁𝄃𝄂𝄂𝄃 활성화 코드 입력"
+  ja: "𝄀𝄁𝄃𝄂𝄂𝄃 アクティベーションコード入力"
+
+ja:
+  en: "🇯🇵 日本語"
+  ko: "🇯🇵 日本語"
+  ja: "🇯🇵 日本語"
+
+ko:
+  en: "🇰🇷 한국어"
+  ko: "🇰🇷 한국어"
+  ja: "🇰🇷 한국어"
+
+license_settings:
+  en: "📜 License"
+  ko: "📜 라이센스"
+  ja: "📜 ライセンス"
+
+management:
+  en: "🗂️ Manage Accounts"
+  ko: "🗂️ 계정 관리"
+  ja: "🗂️ アカウント管理"
+
+register_new_doc:
+  en: "🆕 Register New Account"
+  ko: "🆕 새 계정 등록"
+  ja: "🆕 新しいアカウント登録"
+
+register_license:
+  en: "🆕 Register New License"
+  ko: "🆕 새 라이센스 적용"
+  ja: "🆕 新しいライセンス登録"
+
+search_all_docs:
+  en: "📑 Show All My Accounts"
+  ko: "📑 전체 계정 정보 조회"
+  ja: "📑 すべてのアカウント表示"
+
+search_docs:
+  en: "🔍 Search My Account"
+  ko: "🔍 등록 계정 검색"
+  ja: "🔍 アカウント検索"
+
+search_docs_with_url:
+  en: "🔍 Search Account with URL"
+  ko: "🔍 등록 계정 사이트 주소로 검색"
+  ja: "🔍 URLでアカウント検索"
+
+search_docs_with_description:
+  en: "🔍 Search Account with Description"
+  ko: "🔍 등록 계정 설명으로 찾기"
+  ja: "🔍 説明でアカウント検索"
+
+send_code:
+  en: "⌯⌲ Send Code to your mail"
+  ko: "⌯⌲ 코드 메일 전송"
+  ja: "⌯⌲ メールにコードを送信"
+
+settings:
+  en: "🔧 Kryptos Settings"
+  ko: "🔧 Kryptos 설정"
+  ja: "🔧 Kryptos設定"
+
+show_settings:
+  en: "⚙️ Current Settings"
+  ko: "⚙️ 현재 설정 보기"
+  ja: "⚙️ 現在の設定"
+
+signin:
+  en: "📲 Sign In"
+  ko: "📲 로그인"
+  ja: "📲 サインイン"
+
+signup:
+  en: "📝 Sign Up"
+  ko: "📝 회원 가입"
+  ja: "📝 サインアップ"
+
+signout:
+  en: "🏃🚪 Sign Out"
+  ko: "🏃🚪 로그아웃"
+  ja: "🏃🚪 サインアウト"
+
+statistics:
+  en: "📊 Statistics"
+  ko: "📊 등록 계정 통계"
+  ja: "📊 登録アカウント統計"

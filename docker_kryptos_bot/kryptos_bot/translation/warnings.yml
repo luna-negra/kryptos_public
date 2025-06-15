@@ -1,0 +1,713 @@
+activation:
+  en: |
+    [⚠️ Activate Kryptos Account]
+    
+    Account activation code is not match. 
+    Please check the 6-digit code sent to your email.
+  ko: |
+    [⚠️ Kryptos 계정 활성화]
+    
+    계정 활성화 코드가 일치하지 않습니다.
+    메일로 전송된 6자리 코드를 다시 확인해주세요.
+  ja: |
+    [⚠️ Kryptosのアカウント有効化]
+    
+    有効化コードが一致しません。
+    メールに転送された６桁のコードをもう一度ご確認してください。
+
+create_doc_already_exist:
+  en: |
+    [⚠️ Register New Account Information]
+    
+    You have already registered the same account information. Please check your information again.
+  ko: |
+    [⚠️ 새 계정 정보 등록]
+    
+    이미 동일한 정보가 등록되어 있습니다. 입력 정보를 다시 확인해주세요.
+  ja: |
+    [⚠️ 新しいアカウント情報の登録]
+    
+    同じアカウント情報がすでに登録されています。再度情報を確認してください。
+
+create_doc_expired_license:
+  en: |
+    [⚠️ Register New Account Information]
+
+    Your Kryptos license has been expired. Please register new Kryptos license.
+  ko: |
+    [⚠️ 새 계정 정보 등록]
+
+    등록된 Kryptos 라이센스가 만료되었습니다. 새 Kryptos 라이센스를 등록해주세요.
+  ja: |
+    [⚠️ 新しいアカウント情報の登録]
+
+    ご登録のKryptosライセンスが期限切れです。新しいKryptosライセンスを登録してください。
+
+create_doc_invalid_license:
+  en: |
+    [⚠️ Register New Account Information]
+
+    Your Kryptos license is not activated yet. Please check the issue date of your license.
+  ko: |
+    [⚠️ 새 계정 정보 등록]
+
+    등록된 Kryptos 라이센스가 아직 활성화되지 않았습니다. 라이센스 발급일을 다시 확인해주세요.
+  ja: |
+    [⚠️ 新しいアカウント情報の登録]
+
+    ご登録のKryptosライセンスはまだ有効化されていません。ライセンスの発行日を確認してください。
+
+create_doc_license_limit:
+  en: |
+    [⚠️ Register New Account Information]
+
+    Can not register more account due to the exceed the number of license for register your account.
+  ko: |
+    [⚠️ 새 계정 정보 등록]
+
+    라이센스 내 등록 가능한 계정 수를 초과하여 등록이 불가합니다.
+  ja: |
+    [⚠️ 新しいアカウント情報の登録]
+
+    登録可能なアカウント数を超えたため、これ以上登録できません。
+
+create_doc_regex_site:
+  en: |
+    [⚠️ Register New Account Information]
+
+    Input is not a format of site URL. Please check it again.
+  ko: |
+    [⚠️ 새 계정 정보 등록]
+
+    입력한 정보는 사이트 URL 주소 포맷이 아닙니다. 다시 확인해주세요.
+  ja: |
+    [⚠️ 新しいアカウント情報の登録]
+
+    入力された情報はサイトURLのフォーマットではありません。再度確認してください。
+
+create_doc_without_unknown_reason:
+  en: |
+    [❌ Register New Account Information]
+    
+    Fail to register your new account information due to the unknown reason.
+  ko: |
+    [❌ 새 계정 정보 등록]
+    
+    알 수 없는 이유로 새 계정 정보 등록에 실패하였습니다.
+  ja: |
+    [❌ 新しいアカウント情報の登録]
+    
+    不明な理由で新しいアカウント情報の登録に失敗しました。
+
+delete_doc:
+  en: |
+    [❌ Delete Registered Account Information]
+
+    Fail to delete account information. Please try to delete later.
+  ko: |
+    [❌ 등록 계정 삭제] 
+
+    등록 계정 삭제에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 登録されたアカウント情報の削除]
+
+    アカウント情報の削除に失敗しました。後で再試行してください。
+
+delete_kryptos:
+  en: |
+    [❌ Delete Kryptos]
+
+    Fail to delete account information. Please check your current password again.
+  ko: |
+    [❌ Kryptos 삭제] 
+
+    Kryptos 계정 삭제에 실패하였습니다. 입력한 kryptos 계정 비밀번호를 다시 확인해주세요.
+  ja: |
+    [❌ Kryptosの削除]
+
+    アカウント情報の削除に失敗しました。現在のパスワードを再確認してください。
+
+edit_doc_description:
+  en: |
+    [❌ Edit description on Registered Account Information]
+
+    Fail to edit description for selected account information. Please try it later.
+  ko: |
+    [❌ 등록 계정 설명 변경] 
+
+    선택한 등록 계정 정보에 기재된 설명의 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 登録アカウント情報の説明編集]
+
+    選択したアカウント情報の説明を編集できませんでした。後で再試行してください。
+
+edit_doc_password:
+  en: |
+    [❌ Edit Password on Registered Account Information]
+
+    Fail to edit password for selected account information. Please try it later.
+  ko: |
+    [❌ 등록 계정 비밀번호 변경] 
+
+    선택한 등록 계정 정보의 비밀번호 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 登録アカウント情報のパスワード編集]
+
+    選択したアカウント情報のパスワードを編集できませんでした。後で再試行してください。
+
+edit_doc_site:
+  en: |
+    [❌ Edit Site URL on Registered Account Information]
+
+    Fail to edit site URL for selected account information. Please try it later.
+  ko: |
+    [❌ 등록 계정 사이트 URL 주소 변경] 
+
+    선택한 등록 계정 정보의 사이트 URL 주소 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 登録アカウント情報のサイトURL変更]
+
+    選択したアカウント情報のサイトURLを変更できませんでした。後で再試行してください。
+
+edit_doc_username:
+  en: |
+    [❌ Edit ID/Username on Registered Account Information]
+
+    Fail to edit ID/Username  for selected account information. Please try it later.
+  ko: |
+    [❌ 등록 계정 ID/계정명 변경] 
+
+    선택한 등록 계정 정보의 ID/계정명  변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 登録アカウント情報のID/ユーザー名変更]
+
+    選択したアカウント情報のID/ユーザー名を変更できませんでした。後で再試行してください。
+
+license_expired:
+  en: |
+    [❌ Edit Account]
+    
+    Your license is already expired.    
+    Please upload valid license and try again.
+    
+    * License Expiration: Until {}.
+  ko: |
+    [❌ 등록 계정 정보 변경]
+
+    등록된 Kryptos 라이센스가 만료되었습니다.
+    유효한 새 라이센스 등록 후, 다시 시도해주세요.
+    
+    * 라이센스 만료일시: {}까지.
+  ja: |
+    [❌ 登録アカウントの情報変更]
+    
+    登録しているライセンスが満了されました。
+    有効な新しいライセンスを登録する後で、再試行してください。
+
+    * ライセンスの満了日時: {}まで。
+
+license_inactivated:
+  en: |
+    [❌ Edit Account]
+    
+    Your license is not activated yet.
+    Please check the issue date of your license and try it again.
+    
+    * License Activation: From {}.
+  ko: |
+    [❌ 등록 계정 정보 변경]
+    
+    등록된 Kryptos 라이센스가 아직 유효하지 않습니다.
+    등록된 라이센스의 발급일을 확인 후 다시 시도해주세요.
+    
+    * 라이센스 유효일시: {}부터.
+  ja: |
+    [❌ 登録アカウントの情報変更]
+    
+    登録したライセ有効な状態ではありません。
+    登録したライセンスの発行日をご確認する後で、再試行してください。
+
+    *　ライセンスの有効日時: {}から。
+
+license_limit:
+  en: |
+    [❌ Edit Account]
+    
+    You have already use all available license.
+    
+    * The number of License Current: {}
+  ko: |
+    [❌ 등록 계정 정보 변경]
+    
+    계정 등록에 필요한 라이센스를 전부 사용하였습니다.
+    
+    * 현재 라이센스의 등록 가능 계정 수: {}
+  ja: |
+    [❌ 登録アカウントの情報変更]
+    
+    アカウントの登録に必要な全てのライセンスが使われました。
+    
+    *　現在のライセンス数: {}
+
+
+register_new_doc:
+  en: |
+    [⚠️ Register New Account]
+    
+    Fail to register your new account information
+  ko: |
+    [⚠️ 새 계정 정보 등록]
+    
+    새 계정 정보 등록에 실패하였습니다.
+  ja: |
+    [⚠️ 新しいアカウントの登録]
+
+    新しいアカウント情報の登録に失敗しました。
+
+register_license:
+  en: |
+    [⚠️ Register License]
+    
+    The version of license is not match with current Kryptos version.
+  ko: |
+    [⚠️ 라이센스 등록]
+    
+    등록한 새 라이센스 버전이 현재 Kryptos 버전과 일치하지 않습니다.
+  ja: |
+    [⚠️ ライセンス登録]
+
+    登録したライセンスのバージョンが現在のKryptosバージョンと一致しません。
+
+register_license_expire:
+  en: |
+    [⚠️ Register License]
+
+    The license you uploaded has been expired already. 
+    Please check your license file again
+  ko: |
+    [⚠️ 라이센스 등록]
+
+    등록한 라이센스 이미 만료된 라이센스입니다. 
+    라이센스 파일을 다시 확인해주세요.
+  ja: |
+    [⚠️ ライセンス登録]
+
+    アップロードしたライセンスはすでに期限切れです。 
+    ライセンスファイルを再確認してください。
+
+register_license_not_activated:
+  en: |
+    [⚠️ Register License]
+
+    The license you uploaded is not activated yet. 
+    Please try to register after the issue date again.
+  ko: |
+    [⚠️ 라이센스 등록]
+
+    등록한 라이센스 아직 활성화되지 않은 라이센스입니다. 
+    라이센스 발급일 이후 다시 등록을 시도해주세요.
+  ja: |
+    [⚠️ ライセンス登録]
+
+    アップロードしたライセンスはまだ有効化されていません。 
+    発行日以降に再度登録を試みてください。
+
+register_license_invalid:
+  en: |
+    [ ❌ Register License]
+
+    You registered non Kryptos license. 
+    Please check the uploaded file again.
+  ko: |
+    [❌ 라이센스 등록]
+      
+    등록한 파일은 Kryptos 라이센스가 아닙니다. 
+    업로드 파일을 다시 확인해주세요.
+  ja: |
+    [❌ ライセンス登録]
+      
+    登録したファイルはKryptosライセンスではありません。 
+    アップロードファイルを再確認してください。
+
+register_license_invalid_user:
+  en: |
+    [⚠️ Register License]
+
+    The license is not valid for your Kryptos account.
+    Please check your license file once again.
+  ko: |
+    [⚠️ 라이센스 등록]
+
+    등록한 라이센스는 현재 사용자에게 유효한 라이센스가 아닙니다.
+    라이센스 파일을 다시 확인해주세요.
+  ja: |
+    [⚠️ ライセンス登録]
+
+    登録したライセンスは現在のユーザーに有効なライセンスではありません。
+    ライセンスファイルを再確認してください。
+
+require_activation:
+  en: "⚠️ You have to activate your kryptos account first"
+  ko: "⚠️ Kryptos 계정이 비활성화 상태입니다."
+  ja: "⚠️ Kryptosのアカウントが有効化されない状態でございます。"
+
+require_signin:
+  en: "⚠️ You have to sign in first."
+  ko: "⚠️ 로그인이 필요합니다."
+  ja: "⚠️ ログインが必要でございます。"
+
+search_result_list_text:
+  en: |
+    [⚠️ Search Account]
+
+    There is no result of searching account.
+  ko: |
+    [⚠️ 계정 검색]
+
+    계정 정보 검색 결과가 없습니다.
+  ja: |
+    [⚠️ アカウント検索]
+
+    アカウント情報の検索結果はありません。
+
+send_code:
+  en: |
+    [❌ Send Activation Code]
+    
+    Fail to send activation code to your email address. Please try to activate your account later.
+  ko: |
+    [❌ 활성화 코드 전송 실패]
+    
+    활성화 코드의 메일 전송에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ アクティベーションコード送信失敗]
+    
+    メールアドレスへのアクティベーションコードの送信に失敗しました。後で再度試してください。
+
+server_restarted:
+  en: |
+    [💬 Notice]
+    
+    Kryptos server has been restarted recently so that your session is expired.
+    Let me guide you from the main page.
+  ko: |
+    [💬 알림]
+    
+    Kryptos 서버가 최근 재기동되어 세션이 만료되었습니다.
+    메인 화면부터 안내를 시작합니다.
+  ja: |
+    [💬 お知らせ]
+    
+    Kryptosサーバーは最近再起動されましたので、セションがまんりょうしました。
+    メインページから案内を開始します。
+
+show_doc_info:
+  en: |
+    [ ❌ Get Account Information]
+
+    Fail to get information for selected account. Please try it later.
+  ko: |
+    [❌ 등록 계정 정보 호출]
+
+    선택한 등록 계정 정보의 호출에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ アカウント情報取得失敗]
+
+    選択したアカウント情報の取得に失敗しました。後で再試行してください。
+
+signin:
+  en: |
+    [❌ Sign In]
+    
+    Fail to sign in. Please check your account's information again.
+  ko: |
+    [❌ 로그인] 
+    
+    로그인에 실패하였습니다. 계정 정보를 다시 확인하세요.
+  ja: |
+    [❌ サインイン失敗]
+    
+    サインインに失敗しました。アカウント情報を再確認してください。
+
+signout:
+  en: |
+    [❌ Sign Out]
+
+    Fail to sign out. Please try to sign out later.
+  ko: |
+    [❌ 로그아웃] 
+
+    로그아웃에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ サインアウト失敗]
+
+    サインアウトに失敗しました。後で再度サインアウトを試してください。
+
+signup:
+  en: |
+    [❌ Sign Up]
+
+    Fail to sign up. Please try to sign up later.
+  ko: |
+    [❌ 회원가입] 
+
+    회원가입에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ サインアップ失敗]
+
+    サインアップに失敗しました。後で再度サインアップを試してください。
+
+sign_up_duplicate:
+  en: |
+    [⚠️ Sign Up]
+    
+    You already have Kryptos account.
+  ko: |
+    [⚠️ 회원 가입]
+    
+    이미 등록된 Kryptos 계정이 존재합니다.
+  ja: |
+    [⚠️ サインアップ]
+
+    すでにKryptosアカウントが存在します。
+
+update_first_name:
+  en: |
+    [❌ Update First Name]
+
+    Fail to update first name. Please try to update later.
+  ko: |
+    [❌ 이름 변경] 
+
+    이름(First Name) 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 名字更新失敗]
+
+    名字（First Name）の更新に失敗しました。後で再度試してください。
+
+update_language:
+  en: |
+    [❌ Update Language]
+
+    Fail to update language setting. Please try to update later.
+  ko: |
+    [❌ 언어 변경] 
+
+    언어 설정 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 言語変更失敗]
+
+    言語設定の変更に失敗しました。後で再度変更を試してください。
+
+update_last_name:
+  en: |
+    [❌ Update Last Name]
+
+    Fail to update last name. Please try to update later.
+  ko: |
+    [❌ 이름 변경] 
+
+    성(Last Name) 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 姓更新失敗]
+
+    名字（Last Name）の更新に失敗しました。後で再度試してください。
+
+update_max_access_try:
+  en: |
+    [❌ Update Max Access Times]
+
+    Fail to update max access times for signin. Please try to update later.
+  ko: |
+    [❌ 최대 로그인 허용 횟수 변경] 
+
+    최대 로그인 허용 횟수 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ 最大アクセス回数更新失敗]
+
+    サインインの最大アクセス回数の更新に失敗しました。後で再度試してください。
+
+update_password:
+  en: |
+    [❌ Update Kryptos Password]
+
+    Fail to update Kryptos Password. Please try to update later.
+  ko: |
+    [❌ Kryptos 비밀번호 변경] 
+
+    Kryptos 계정 비밀번호 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ Kryptosパスワード更新失敗]
+
+    Kryptosアカウントのパスワード更新に失敗しました。後で再度試してください。
+
+update_password_mismatch_current_password:
+  en: |
+    [⚠️ Update Password on Registered Account]
+    
+    Current input is not match to the password of selected account information .
+  ko: |
+    [⚠️ 등록 계정 비밀번호 변경]
+    
+    입력한 정보가 현재 등록된 계정의 비밀번호와 불일치합니다.
+  ja: |
+    [⚠️ 登録アカウントのパスワード変更]
+
+    入力情報が現在登録されているアカウントのパスワードと一致しません。
+
+update_visibility:
+  en: |
+    [❌ Update Password Visibility]
+
+    Fail to update password visibility. Please try to update later.
+  ko: |
+    [❌ 비밀번호 노출도 변경] 
+
+    비밀번호 노출도 변경에 실패하였습니다. 잠시 후 다시 시도해주세요.
+  ja: |
+    [❌ パスワード可視性変更失敗]
+
+    パスワード可視性の変更に失敗しました。後で再度試してください。
+
+warn_already_signout:
+  en: |
+    [⚠️ Sign Out]
+
+    You have signed out already.
+  ko: |
+    [⚠️ 로그 아웃]
+
+    이미 로그아웃 되었습니다.
+  ja: |
+    [⚠️ サインアウト]
+
+    すでにサインアウトしています。
+
+warn_email_format:
+  en: |
+    [⚠️ Sign Up]
+
+    Kryptos requires your email address as an username.
+    please enter the email address format.
+  ko: |
+    [⚠️ 회원 가입]
+
+    Kryptos는 이메일 주소로 가입이 가능합니다.
+    이메일 형식으로 입력해주세요.
+  ja: |
+    [⚠️ サインアップ]
+
+    Kryptosではメールアドレスをユーザー名として使用します。
+    メールアドレス形式で入力してください。
+
+warn_out_of_range_max_access:
+  en: |
+    [⚠️ Update Max Access Times]
+
+    Input value must be in range 3 and 5
+  ko: |
+    [⚠️ 최대 로그인 허용 횟수 변경]
+
+    입력값은 3 ~ 5 범위의 정수만 가능합니다.
+  ja: |
+    [⚠️ 最大アクセス回数更新]
+
+    入力値は3〜5の範囲の整数でなければなりません。
+
+warn_out_of_range_visibility:
+  en: |
+    [⚠️ Update Password Visibility]
+
+    Input value must be in range 20 and 80
+  ko: |
+    [⚠️ 비밀번호 노출도 변경]
+
+    입력값은 20 ~ 80 범위의 정수만 가능합니다.
+  ja: |
+    [⚠️ パスワード可視性変更]
+
+    入力値は20〜80の範囲の整数でなければなりません。
+
+warn_password_no_digit:
+  en: |
+    [⚠️ Sign Up]
+
+    Password must contain at least one digit.
+  ko: |
+    [⚠️ 회원 가입]
+
+    비밀번호는 반드시 하나 이상의 숫자를 포함하여야 합니다.
+  ja: |
+    [⚠️ サインアップ]
+
+    パスワードには少なくとも1つの数字が含まれている必要があります。
+
+warn_password_no_special:
+  en: |
+    [⚠️ Sign Up]
+
+    Password must contain at least one special character.
+  ko: |
+    [⚠️ 회원 가입]
+
+    비밀번호는 반드시 하나 이상의 특수문자를 포함하여야 합니다.
+  ja: |
+    [⚠️ サインアップ]
+
+    パスワードには少なくとも1つの特殊文字が含まれている必要があります。
+
+warn_password_no_upper:
+  en: |
+    [⚠️ Sign Up]
+
+    Password must contain at least one upper alphabet.
+  ko: |
+    [⚠️ 회원 가입]
+
+    비밀번호는 반드시 하나 이상의 영문 대문자를 포함하여야 합니다.
+  ja: |
+    [⚠️ サインアップ]
+
+    パスワードには少なくとも1つの大文字アルファベットが含まれている必要があります。
+
+warn_password_no_lower:
+  en: |
+    [⚠️ Sign Up]
+
+    Password must contain at least one lower alphabet.
+  ko: |
+    [⚠️ 회원 가입]
+
+    비밀번호는 반드시 하나 이상의 영문 소문자를 포함하여야 합니다.
+  ja: |
+    [⚠️ サインアップ]
+
+    パスワードには少なくとも1つの小文字アルファベットが含まれている必要があります。
+
+warn_password_no_minimal:
+  en: |
+    [⚠️ Sign Up]
+
+    Password must be more than 8 characters.
+  ko: |
+    [⚠️ 회원 가입]
+
+    비밀번호는 반드시 8자 이상으로 구성되어야 합니다.
+  ja: |
+    [⚠️ サインアップ]
+
+    パスワードは8文字以上で構成する必要があります。
+
+warn_regex_mismatch:
+  en: |
+    [⚠️ Input Format Warning]
+
+    Input value is not match the designated regex format
+  ko: |
+    [⚠️ 입력값 포맷 경고]
+   
+    입력값이 지정된 Regex 형식과 일치하지 않습니다.
+  ja: |
+    [⚠️ 入力値フォーマット警告]
+
+    入力値が指定されたRegex形式と一致しません。
